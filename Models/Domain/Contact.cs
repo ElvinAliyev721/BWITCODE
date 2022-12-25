@@ -1,11 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using BWITCODE.Models.Base;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BWITCODE.Models.Domain
 {
-    public class Contact
+    public class Contact : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
         [Required]
         public string FullName { get; set; }
         [Required]
@@ -16,8 +16,7 @@ namespace BWITCODE.Models.Domain
         public string Email { get; set; }
         [Required]
         public string Message { get; set; }
-        public string InstagramUrl { get; set; }
-        public string TelegramUrl { get; set; }
-        public string LinkedinUrl { get; set; }
+        [NotMapped]
+        public override DateTime UpdatedDate { get => base.UpdatedDate; set => base.UpdatedDate = value; }
     }
 }

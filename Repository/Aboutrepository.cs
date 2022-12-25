@@ -1,5 +1,6 @@
 ﻿using BWITCODE.DAL;
 using BWITCODE.Models.Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace BWITCODE.Repository
 {
@@ -10,9 +11,9 @@ namespace BWITCODE.Repository
         {
             _context= context;
         }
-        public About GetFirst()
+        public async Task<About> GetFirst()
         {
-            return _context.Abouts.FirstOrDefault();
+            return await _context.Abouts.FirstOrDefaultAsync();
         }
     }
 }

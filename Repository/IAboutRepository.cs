@@ -4,6 +4,6 @@ namespace BWITCODE.Repository
 {
     public interface IAboutRepository
     {
-        public About GetFirst();
+        public Task<About> GetFirst();
     }
 }

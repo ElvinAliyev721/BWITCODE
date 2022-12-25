@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualProjects\\BWITCODE\\BWITCODE.csproj": {}
+    "C:\\Users\\vusal\\Desktop\\BWITCODE\\BWITCODE.csproj": {}
   },
   "projects": {
-    "D:\\VisualProjects\\BWITCODE\\BWITCODE.csproj": {
+    "C:\\Users\\vusal\\Desktop\\BWITCODE\\BWITCODE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualProjects\\BWITCODE\\BWITCODE.csproj",
+        "projectUniqueName": "C:\\Users\\vusal\\Desktop\\BWITCODE\\BWITCODE.csproj",
         "projectName": "BWITCODE",
-        "projectPath": "D:\\VisualProjects\\BWITCODE\\BWITCODE.csproj",
-        "packagesPath": "C:\\Users\\aliye\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualProjects\\BWITCODE\\obj\\",
+        "projectPath": "C:\\Users\\vusal\\Desktop\\BWITCODE\\BWITCODE.csproj",
+        "packagesPath": "C:\\Users\\vusal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vusal\\Desktop\\BWITCODE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aliye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vusal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -47,6 +47,18 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.4.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
